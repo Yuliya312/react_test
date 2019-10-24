@@ -1,20 +1,6 @@
 module.exports = {
-  extends: ['airbnb', '@mate-academy/eslint-config-react'],
-  env: {
-    commonjs: true,
-    node: true,
-    es6: true,
-    browser: true
-  },
-  parserOptions: {
-    sourceType: "module"
-  },
-  "globals": {
-    it: false
-  },
+  extends: '@mate-academy/eslint-config-react',
   rules: {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    'no-console': 'off',
-    "no-param-reassign": 0
-  }
+    'arrow-body-style': 0,
+  },
 };

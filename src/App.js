@@ -1,12 +1,9 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
-function App() {
-  return (
-    <div>
-
-    </div>
-  );
-}
-
-export default App;
+export const App = () => (
+  <div className="app">
+    <h1 className>Mate Hackaton</h1>
+    <button type="button" className="btn btn-primary">Start</button>
+  </div>
+);
